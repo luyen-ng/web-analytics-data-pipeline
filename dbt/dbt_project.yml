@@ -1,0 +1,14 @@
+name: api_bi_project
+config-version: 2
+version: 1.0.0
+profile: api_bi_profile
+model-path: ["models"]
+
+models:
+  api_bi_project:
+    silver:
+      materialized: table
+      schema: silver
+    gold:
+      materialized: table
+      schema: gold
