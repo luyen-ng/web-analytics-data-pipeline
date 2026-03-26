@@ -16,7 +16,7 @@ This project involves:
 
 ## System Architecture
 
-![System Architecture](docs/System Architecture.png)
+![System Architecture](docs/System-Architecture.png)
 
 Each component has a clear responsibility:
 - **Docker**: Container runtime and packaging layer providing consistent environments for all services (PostgreSQL, Airflow, dbt, and API).
@@ -29,7 +29,7 @@ Each component has a clear responsibility:
 
 ## Data Architecture
 
-![High Level Architecture](docs/High Level Architecture.png)
+![High Level Architecture](docs/High-Level-Architecture.png)
 
 This project follows the **Medallion Architecture**:
 
