@@ -1,0 +1,105 @@
+[0m01:54:29.608866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7759797dd310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7759799b3bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7759799ccb90>]}
+
+
+============================== 01:54:29.618863 | de5f195b-7091-4e85-b576-6eabda37a6e7 ==============================
+[0m01:54:29.618863 [info ] [MainThread]: Running with dbt=1.8.3
+[0m01:54:29.620648 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/usr/app/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:54:29.678458 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m01:54:29.683551 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.17719048, "process_user_time": 1.495814, "process_kernel_time": 0.396934, "process_mem_max_rss": "92584", "process_in_blocks": "82744", "process_out_blocks": "1128", "command_success": false}
+[0m01:54:29.686018 [debug] [MainThread]: Command `dbt deps` failed at 01:54:29.685854 after 0.18 seconds
+[0m01:54:29.688126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x775979cc1250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7759797dcdd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77597d8d8b90>]}
+[0m01:54:29.690331 [debug] [MainThread]: Flushing usage events
+[0m01:59:09.773597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703542dc3250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703542dd91d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703542dda710>]}
+
+
+============================== 01:59:09.778017 | b4fa97c7-e353-4b8c-8138-2ce94552be48 ==============================
+[0m01:59:09.778017 [info ] [MainThread]: Running with dbt=1.8.3
+[0m01:59:09.779485 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/usr/app/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:59:09.846616 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m01:59:09.848886 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.17224488, "process_user_time": 1.769103, "process_kernel_time": 0.411703, "process_mem_max_rss": "92340", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m01:59:09.850705 [debug] [MainThread]: Command `dbt deps` failed at 01:59:09.850512 after 0.17 seconds
+[0m01:59:09.852067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703542d9c210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703546d383d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703542c5a890>]}
+[0m01:59:09.853406 [debug] [MainThread]: Flushing usage events
+[0m02:00:07.376525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ea9d32e890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ea9d32dd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ea9d339450>]}
+
+
+============================== 02:00:07.381444 | 2df5beee-bbe7-4d97-aed5-922f159e2b31 ==============================
+[0m02:00:07.381444 [info ] [MainThread]: Running with dbt=1.8.3
+[0m02:00:07.384050 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/root/.dbt', 'log_path': '/usr/app/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:00:07.445664 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m02:00:07.448980 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.1724329, "process_user_time": 1.51453, "process_kernel_time": 0.156675, "process_mem_max_rss": "92428", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:00:07.451380 [debug] [MainThread]: Command `dbt deps` failed at 02:00:07.451122 after 0.17 seconds
+[0m02:00:07.454318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ea9d2f0150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72ea9d39bd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x72eaa1258b90>]}
+[0m02:00:07.457149 [debug] [MainThread]: Flushing usage events
+[0m02:00:48.997928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3e9bd8990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3e9bd9250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3e9bd8e50>]}
+
+
+============================== 02:00:49.005153 | e1db911c-fbb7-42cc-b628-02db4fe92e6d ==============================
+[0m02:00:49.005153 [info ] [MainThread]: Running with dbt=1.8.3
+[0m02:00:49.006634 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/usr/app/logs', 'fail_fast': 'False', 'profiles_dir': '/root/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m02:00:49.068065 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m02:00:49.070226 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.135148, "process_user_time": 1.652219, "process_kernel_time": 0.319269, "process_mem_max_rss": "93132", "process_out_blocks": "1128", "command_success": false, "process_in_blocks": "0"}
+[0m02:00:49.072230 [debug] [MainThread]: Command `dbt deps` failed at 02:00:49.072068 after 0.14 seconds
+[0m02:00:49.073876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3edb34490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3edb34d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70e3e9a5d050>]}
+[0m02:00:49.075446 [debug] [MainThread]: Flushing usage events
+[0m02:06:41.300045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5dcfeef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5dd284090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5dcfee5d0>]}
+
+
+============================== 02:06:41.306398 | 5d2a1eea-4070-417e-8817-cc62bdafe486 ==============================
+[0m02:06:41.306398 [info ] [MainThread]: Running with dbt=1.8.3
+[0m02:06:41.308972 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/root/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/usr/app/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:06:41.369692 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m02:06:41.376706 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.20735797, "process_user_time": 1.502132, "process_kernel_time": 0.32391, "process_mem_max_rss": "91512", "process_in_blocks": "85792", "command_success": false, "process_out_blocks": "0"}
+[0m02:06:41.379214 [debug] [MainThread]: Command `dbt deps` failed at 02:06:41.379062 after 0.21 seconds
+[0m02:06:41.381488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5dd1b7d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5dcff4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5e0f7cc10>]}
+[0m02:06:41.383505 [debug] [MainThread]: Flushing usage events
+[0m02:08:43.280426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adce9585310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adce9575d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adce9577310>]}
+
+
+============================== 02:08:43.284680 | 4e347821-adef-4018-929c-ede48e169ad8 ==============================
+[0m02:08:43.284680 [info ] [MainThread]: Running with dbt=1.8.3
+[0m02:08:43.287330 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/app/logs', 'profiles_dir': '/root/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m02:08:43.359712 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m02:08:43.362829 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.14835523, "process_user_time": 1.717668, "process_kernel_time": 0.278098, "process_mem_max_rss": "92148", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:08:43.365146 [debug] [MainThread]: Command `dbt deps` failed at 02:08:43.364990 after 0.15 seconds
+[0m02:08:43.367092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adce9538110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adced4ccd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7adced4ccc50>]}
+[0m02:08:43.368691 [debug] [MainThread]: Flushing usage events
+[0m02:23:32.705483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d536352d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d53826410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d537d8310>]}
+
+
+============================== 02:23:32.716109 | 3d6aa8ca-ecdd-4b37-bd40-c00a3c299baf ==============================
+[0m02:23:32.716109 [info ] [MainThread]: Running with dbt=1.8.3
+[0m02:23:32.718239 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/usr/app/logs', 'profiles_dir': '/root/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m02:23:32.781896 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('model-path' was unexpected)
+
+Error encountered in /usr/app/dbt_project.yml
+[0m02:23:32.787722 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.1898522, "process_user_time": 1.894277, "process_kernel_time": 0.514749, "process_mem_max_rss": "92684", "process_in_blocks": "90896", "process_out_blocks": "1128", "command_success": false}
+[0m02:23:32.790153 [debug] [MainThread]: Command `dbt deps` failed at 02:23:32.789991 after 0.19 seconds
+[0m02:23:32.792204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d537d92d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d57730d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d7d5497a710>]}
+[0m02:23:32.794268 [debug] [MainThread]: Flushing usage events

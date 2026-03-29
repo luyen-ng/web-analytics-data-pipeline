@@ -1,0 +1,179 @@
+[2026-03-28T02:24:04.795+0100] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:04.796+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:24:04.800+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:04.799+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:04.845+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:05.050+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.049+0100] {override.py:1858} INFO - Created Permission View: can read on DAG:etl_api_to_bi
+[2026-03-28T02:24:05.327+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.327+0100] {override.py:1858} INFO - Created Permission View: can delete on DAG:etl_api_to_bi
+[2026-03-28T02:24:05.336+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.336+0100] {override.py:1858} INFO - Created Permission View: can edit on DAG:etl_api_to_bi
+[2026-03-28T02:24:05.337+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.337+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:24:05.348+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.347+0100] {dag.py:3111} INFO - Creating ORM DAG for etl_api_to_bi
+[2026-03-28T02:24:05.359+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:05.358+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:00:00+00:00, run_after=2026-03-28 01:15:00+00:00
+[2026-03-28T02:24:05.382+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.595 seconds
+[2026-03-28T02:24:35.642+0100] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:35.643+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:24:35.646+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:35.646+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:35.677+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:24:35.724+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:35.723+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:24:35.752+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:24:35.751+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:00:00+00:00, run_after=2026-03-28 01:15:00+00:00
+[2026-03-28T02:24:35.778+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.145 seconds
+[2026-03-28T02:25:05.946+0100] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:05.948+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:25:05.950+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:05.950+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:05.979+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:06.016+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:06.016+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:25:06.041+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:06.041+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:25:06.067+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.127 seconds
+[2026-03-28T02:25:36.377+0100] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:36.378+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:25:36.380+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:36.380+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:36.407+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:25:36.446+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:36.445+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:25:36.615+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:25:36.615+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:25:36.643+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.273 seconds
+[2026-03-28T02:26:06.984+0100] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:06.985+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:26:06.988+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:06.987+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:07.018+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:07.237+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:07.237+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:26:07.262+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:07.261+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:26:07.292+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.316 seconds
+[2026-03-28T02:26:37.605+0100] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:37.606+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:26:37.609+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:37.609+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:37.814+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:26:37.846+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:37.846+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:26:37.873+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:26:37.873+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:26:37.900+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.304 seconds
+[2026-03-28T02:27:08.049+0100] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:08.050+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:27:08.052+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:08.052+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:08.080+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:08.114+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:08.114+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:27:08.136+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:08.136+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:27:08.162+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.120 seconds
+[2026-03-28T02:27:38.342+0100] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:38.343+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:27:38.346+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:38.345+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:38.372+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:27:38.410+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:38.410+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:27:38.436+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:27:38.435+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:27:38.464+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.129 seconds
+[2026-03-28T02:28:08.761+0100] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:08.762+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:28:08.764+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:08.764+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:08.801+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:08.843+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:08.843+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:28:08.870+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:08.870+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:28:08.900+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.145 seconds
+[2026-03-28T02:28:39.096+0100] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:39.097+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:28:39.100+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:39.099+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:39.139+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:28:39.176+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:39.176+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:28:39.205+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:28:39.204+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:28:39.234+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.145 seconds
+[2026-03-28T02:29:09.585+0100] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:09.587+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:29:09.590+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:09.589+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:09.629+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:09.670+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:09.670+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:29:09.699+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:09.698+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:29:09.724+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.146 seconds
+[2026-03-28T02:29:39.882+0100] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:39.883+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:29:39.885+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:39.885+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:39.908+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:29:39.946+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:39.946+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:29:39.973+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:29:39.972+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:15:00+00:00, run_after=2026-03-28 01:30:00+00:00
+[2026-03-28T02:29:40.002+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.127 seconds
+[2026-03-28T02:30:10.340+0100] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:10.341+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:30:10.343+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:10.343+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:10.368+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:10.409+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:10.408+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:30:10.436+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:10.436+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:30:10.469+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.135 seconds
+[2026-03-28T02:30:40.627+0100] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:40.629+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:30:40.632+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:40.632+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:40.670+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:30:40.710+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:40.710+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:30:40.736+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:30:40.736+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:30:40.767+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.146 seconds
+[2026-03-28T02:31:11.028+0100] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:11.029+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:31:11.032+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:11.031+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:11.059+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:11.100+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:11.100+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:31:11.131+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:11.130+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:31:11.162+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.141 seconds
+[2026-03-28T02:31:41.323+0100] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:41.325+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:31:41.327+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:41.326+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:41.351+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:31:41.391+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:41.391+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:31:41.424+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:31:41.424+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:31:41.456+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.140 seconds
+[2026-03-28T02:32:11.696+0100] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:11.697+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:32:11.699+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:11.699+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:11.728+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:11.767+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:11.766+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:32:11.801+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:11.800+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:32:11.834+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.146 seconds
+[2026-03-28T02:32:41.980+0100] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:41.981+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:32:41.983+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:41.983+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:42.009+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:32:42.051+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:42.050+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:32:42.074+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:32:42.074+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:32:42.100+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.127 seconds
+[2026-03-28T02:33:12.374+0100] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:12.375+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:33:12.378+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:12.378+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:12.416+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:12.459+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:12.459+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:33:12.485+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:12.485+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:33:12.515+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.148 seconds
+[2026-03-28T02:33:42.665+0100] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:42.666+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:33:42.669+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:42.668+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:42.698+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:33:42.736+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:42.735+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:33:42.764+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:33:42.764+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:33:42.795+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.137 seconds
+[2026-03-28T02:34:13.124+0100] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:13.126+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:34:13.128+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:13.128+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:13.149+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:13.184+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:13.184+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:34:13.207+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:13.207+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:34:13.236+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.118 seconds
+[2026-03-28T02:34:43.440+0100] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:43.442+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:34:43.444+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:43.443+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:43.473+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:34:43.513+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:43.513+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:34:43.539+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:34:43.539+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:34:43.569+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.135 seconds
+[2026-03-28T02:35:13.830+0100] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:13.832+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:35:13.834+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:13.834+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:13.870+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:13.913+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:13.913+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:35:13.945+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:13.945+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:35:13.977+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.153 seconds
+[2026-03-28T02:35:44.200+0100] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:44.202+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:35:44.205+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:44.204+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:44.232+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:35:44.271+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:44.271+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:35:44.300+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:35:44.300+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:35:44.328+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.137 seconds
+[2026-03-28T02:36:14.620+0100] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:36:14.621+0100] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_api_to_bi.py for tasks to queue
+[2026-03-28T02:36:14.625+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:36:14.624+0100] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:36:14.658+0100] {processor.py:840} INFO - DAG(s) 'etl_api_to_bi' retrieved from /opt/airflow/dags/etl_api_to_bi.py
+[2026-03-28T02:36:14.697+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:36:14.697+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-03-28T02:36:14.724+0100] {logging_mixin.py:188} INFO - [2026-03-28T02:36:14.724+0100] {dag.py:3947} INFO - Setting next_dagrun for etl_api_to_bi to 2026-03-28 01:30:00+00:00, run_after=2026-03-28 01:45:00+00:00
+[2026-03-28T02:36:14.752+0100] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_api_to_bi.py took 0.138 seconds
