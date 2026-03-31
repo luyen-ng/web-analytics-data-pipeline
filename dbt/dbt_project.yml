@@ -2,7 +2,7 @@ name: api_bi_project
 config-version: 2
 version: 1.0.0
 profile: api_bi_profile
-model-path: ["models"]
+model-paths: ["models"]
 
 models:
   api_bi_project:
