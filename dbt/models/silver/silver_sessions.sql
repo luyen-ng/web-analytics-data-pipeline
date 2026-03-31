@@ -1,4 +1,4 @@
-with src as (
+with ss as (
   select * from bronze.sessions
 )
 select
@@ -16,4 +16,4 @@ select
   session_start::timestamp as session_start,
   updated_at::timestamp as updated_at,
   date_trunc('day', session_start)::date as session_day
-from src
+from ss

@@ -1,0 +1,149 @@
+[2026-03-31T00:15:01.254+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-31T00:15:01.303+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [queued]>
+[2026-03-31T00:15:01.315+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [queued]>
+[2026-03-31T00:15:01.316+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-31T00:15:01.333+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_sessions> on 2026-03-30 22:00:00+00:00
+[2026-03-31T00:15:01.338+0200] {standard_task_runner.py:64} INFO - Started process 232 to run task
+[2026-03-31T00:15:01.344+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_api_to_bi', 'extract_sessions', 'scheduled__2026-03-30T22:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/etl_api_to_bi.py', '--cfg-path', '/tmp/tmpyklaillj']
+[2026-03-31T00:15:01.348+0200] {standard_task_runner.py:91} INFO - Job 9: Subtask extract_sessions
+[2026-03-31T00:15:01.441+0200] {task_command.py:426} INFO - Running <TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [running]> on host c08873f45d31
+[2026-03-31T00:15:01.777+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data' AIRFLOW_CTX_DAG_ID='etl_api_to_bi' AIRFLOW_CTX_TASK_ID='extract_sessions' AIRFLOW_CTX_EXECUTION_DATE='2026-03-30T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-30T22:00:00+00:00'
+[2026-03-31T00:15:01.779+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-31T00:16:02.221+0200] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-03-31T00:16:02.222+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:02.582+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:02.936+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:03.402+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:03.763+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:04.176+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:04.550+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:04.931+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:05.328+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:06.001+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:06.615+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:07.088+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:07.524+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:07.929+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:08.381+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:08.775+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:09.172+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:09.578+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:09.968+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:10.372+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:10.766+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:11.172+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:11.578+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:11.969+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:12.370+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:12.795+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:13.248+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:13.655+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:14.054+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:14.510+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:14.889+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:15.290+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:15.675+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:16.129+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:16.535+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:16.955+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:17.385+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:17.773+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:18.185+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:18.576+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:19.034+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:19.429+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:19.845+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:20.241+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:20.674+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:21.057+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:21.517+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:21.906+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:22.305+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:22.726+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:23.129+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:23.538+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:23.938+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:16:24.328+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:17:24.717+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:17:25.064+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:17:25.465+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:17:25.543+0200] {python.py:237} INFO - Done. Returned value was: 28197
+[2026-03-31T00:17:25.544+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-31T00:17:25.575+0200] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_api_to_bi, task_id=extract_sessions, run_id=scheduled__2026-03-30T22:00:00+00:00, execution_date=20260330T220000, start_date=20260330T221501, end_date=20260330T221725
+[2026-03-31T00:17:25.626+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-31T00:17:25.638+0200] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-31T00:25:52.272+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-31T00:25:52.309+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [queued]>
+[2026-03-31T00:25:52.319+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [queued]>
+[2026-03-31T00:25:52.320+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-03-31T00:25:52.336+0200] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_sessions> on 2026-03-30 22:00:00+00:00
+[2026-03-31T00:25:52.343+0200] {standard_task_runner.py:64} INFO - Started process 206 to run task
+[2026-03-31T00:25:52.347+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_api_to_bi', 'extract_sessions', 'scheduled__2026-03-30T22:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/etl_api_to_bi.py', '--cfg-path', '/tmp/tmps3w9odz0']
+[2026-03-31T00:25:52.350+0200] {standard_task_runner.py:91} INFO - Job 4: Subtask extract_sessions
+[2026-03-31T00:25:52.436+0200] {task_command.py:426} INFO - Running <TaskInstance: etl_api_to_bi.extract_sessions scheduled__2026-03-30T22:00:00+00:00 [running]> on host fcaa2f07ee84
+[2026-03-31T00:25:52.743+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data' AIRFLOW_CTX_DAG_ID='etl_api_to_bi' AIRFLOW_CTX_TASK_ID='extract_sessions' AIRFLOW_CTX_EXECUTION_DATE='2026-03-30T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-30T22:00:00+00:00'
+[2026-03-31T00:25:52.745+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-31T00:25:53.231+0200] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2026-03-31T00:25:53.232+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:53.764+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:54.273+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:54.757+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:55.247+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:55.824+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:56.366+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:56.892+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:57.446+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:57.898+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:58.350+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:58.825+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:59.309+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:25:59.824+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:01.234+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:01.656+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:02.029+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:02.462+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:02.874+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:03.302+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:03.715+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:04.116+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:04.517+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:04.913+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:05.318+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:05.667+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:06.240+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:06.631+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:07.066+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:07.456+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:07.880+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:08.331+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:08.753+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:09.208+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:09.606+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:26:10.045+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:10.538+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:10.944+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:11.355+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:11.772+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:12.152+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:12.566+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:12.954+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:13.376+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:13.809+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:14.233+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:14.640+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:15.039+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:15.436+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:15.852+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:16.270+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:16.727+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:17.113+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:17.513+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:17.919+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:18.362+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:18.759+0200] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2026-03-31T00:27:18.830+0200] {python.py:237} INFO - Done. Returned value was: 28205
+[2026-03-31T00:27:18.831+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-31T00:27:18.862+0200] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=etl_api_to_bi, task_id=extract_sessions, run_id=scheduled__2026-03-30T22:00:00+00:00, execution_date=20260330T220000, start_date=20260330T222552, end_date=20260330T222718
+[2026-03-31T00:27:18.906+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-31T00:27:18.931+0200] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-31T00:27:18.934+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

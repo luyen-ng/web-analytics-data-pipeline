@@ -1,0 +1,101 @@
+[2026-03-31T02:15:31.250+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-31T02:15:31.284+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_api_to_bi.dbt_build manual__2026-03-31T00:13:12.752437+00:00 [queued]>
+[2026-03-31T02:15:31.293+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_api_to_bi.dbt_build manual__2026-03-31T00:13:12.752437+00:00 [queued]>
+[2026-03-31T02:15:31.294+0200] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2026-03-31T02:15:31.309+0200] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_build> on 2026-03-31 00:13:12.752437+00:00
+[2026-03-31T02:15:31.316+0200] {standard_task_runner.py:64} INFO - Started process 991 to run task
+[2026-03-31T02:15:31.319+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_api_to_bi', 'dbt_build', 'manual__2026-03-31T00:13:12.752437+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/etl_api_to_bi.py', '--cfg-path', '/tmp/tmpxb7zhz8m']
+[2026-03-31T02:15:31.321+0200] {standard_task_runner.py:91} INFO - Job 102: Subtask dbt_build
+[2026-03-31T02:15:31.395+0200] {task_command.py:426} INFO - Running <TaskInstance: etl_api_to_bi.dbt_build manual__2026-03-31T00:13:12.752437+00:00 [running]> on host 533e6543a790
+[2026-03-31T02:15:31.641+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data' AIRFLOW_CTX_DAG_ID='etl_api_to_bi' AIRFLOW_CTX_TASK_ID='dbt_build' AIRFLOW_CTX_EXECUTION_DATE='2026-03-31T00:13:12.752437+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-31T00:13:12.752437+00:00'
+[2026-03-31T02:15:31.643+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-31T02:15:31.652+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-31T02:15:31.653+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "docker exec dbt bash -lc 'cd /usr/app && dbt build --fail-fast --profiles-dir /root/.dbt'"]
+[2026-03-31T02:15:31.662+0200] {subprocess.py:86} INFO - Output:
+[2026-03-31T02:15:33.279+0200] {subprocess.py:93} INFO - [0m00:15:33  Running with dbt=1.8.3
+[2026-03-31T02:15:33.581+0200] {subprocess.py:93} INFO - [0m00:15:33  Registered adapter: postgres=1.8.2
+[2026-03-31T02:15:35.075+0200] {subprocess.py:93} INFO - [0m00:15:35  Found 6 models, 11 data tests, 532 macros
+[2026-03-31T02:15:35.080+0200] {subprocess.py:93} INFO - [0m00:15:35
+[2026-03-31T02:15:35.285+0200] {subprocess.py:93} INFO - [0m00:15:35  Concurrency: 4 threads (target='dev')
+[2026-03-31T02:15:35.286+0200] {subprocess.py:93} INFO - [0m00:15:35
+[2026-03-31T02:15:35.294+0200] {subprocess.py:93} INFO - [0m00:15:35  1 of 17 START sql table model silver.silver_customers .......................... [RUN]
+[2026-03-31T02:15:35.295+0200] {subprocess.py:93} INFO - [0m00:15:35  2 of 17 START sql table model silver.silver_payments ........................... [RUN]
+[2026-03-31T02:15:35.297+0200] {subprocess.py:93} INFO - [0m00:15:35  3 of 17 START sql table model silver.silver_sessions ........................... [RUN]
+[2026-03-31T02:15:35.573+0200] {subprocess.py:93} INFO - [0m00:15:35  1 of 17 OK created sql table model silver.silver_customers ..................... [[32mSELECT 1002[0m in 0.27s]
+[2026-03-31T02:15:35.576+0200] {subprocess.py:93} INFO - [0m00:15:35  2 of 17 OK created sql table model silver.silver_payments ...................... [[32mSELECT 9021[0m in 0.27s]
+[2026-03-31T02:15:35.591+0200] {subprocess.py:93} INFO - [0m00:15:35  4 of 17 START test not_null_silver_customers_country ........................... [RUN]
+[2026-03-31T02:15:35.593+0200] {subprocess.py:93} INFO - [0m00:15:35  5 of 17 START test not_null_silver_customers_customer_id ....................... [RUN]
+[2026-03-31T02:15:35.594+0200] {subprocess.py:93} INFO - [0m00:15:35  6 of 17 START test unique_silver_customers_customer_id ......................... [RUN]
+[2026-03-31T02:15:35.731+0200] {subprocess.py:93} INFO - [0m00:15:35  3 of 17 OK created sql table model silver.silver_sessions ...................... [[32mSELECT 28216[0m in 0.43s]
+[2026-03-31T02:15:35.745+0200] {subprocess.py:93} INFO - [0m00:15:35  7 of 17 START test accepted_values_silver_payments_status__succeeded__failed__refunded  [RUN]
+[2026-03-31T02:15:35.796+0200] {subprocess.py:93} INFO - [0m00:15:35  4 of 17 PASS not_null_silver_customers_country ................................. [[32mPASS[0m in 0.20s]
+[2026-03-31T02:15:35.800+0200] {subprocess.py:93} INFO - [0m00:15:35  6 of 17 PASS unique_silver_customers_customer_id ............................... [[32mPASS[0m in 0.20s]
+[2026-03-31T02:15:35.804+0200] {subprocess.py:93} INFO - [0m00:15:35  5 of 17 PASS not_null_silver_customers_customer_id ............................. [[32mPASS[0m in 0.20s]
+[2026-03-31T02:15:35.812+0200] {subprocess.py:93} INFO - [0m00:15:35  8 of 17 START test not_null_silver_payments_payment_id ......................... [RUN]
+[2026-03-31T02:15:35.816+0200] {subprocess.py:93} INFO - [0m00:15:35  9 of 17 START test unique_silver_payments_payment_id ........................... [RUN]
+[2026-03-31T02:15:35.820+0200] {subprocess.py:93} INFO - [0m00:15:35  10 of 17 START test accepted_values_silver_sessions_source__google__direct__facebook__linkedin__newsletter__referral__bing  [RUN]
+[2026-03-31T02:15:35.879+0200] {subprocess.py:93} INFO - [0m00:15:35  7 of 17 PASS accepted_values_silver_payments_status__succeeded__failed__refunded  [[32mPASS[0m in 0.13s]
+[2026-03-31T02:15:35.893+0200] {subprocess.py:93} INFO - [0m00:15:35  11 of 17 START test not_null_silver_sessions_session_id ........................ [RUN]
+[2026-03-31T02:15:35.924+0200] {subprocess.py:93} INFO - [0m00:15:35  8 of 17 PASS not_null_silver_payments_payment_id ............................... [[32mPASS[0m in 0.10s]
+[2026-03-31T02:15:35.934+0200] {subprocess.py:93} INFO - [0m00:15:35  12 of 17 START test unique_silver_sessions_session_id .......................... [RUN]
+[2026-03-31T02:15:35.947+0200] {subprocess.py:93} INFO - [0m00:15:35  10 of 17 FAIL 1 accepted_values_silver_sessions_source__google__direct__facebook__linkedin__newsletter__referral__bing  [[31mFAIL 1[0m in 0.12s]
+[2026-03-31T02:15:35.949+0200] {subprocess.py:93} INFO - [0m00:15:35  9 of 17 PASS unique_silver_payments_payment_id ................................. [[32mPASS[0m in 0.13s]
+[2026-03-31T02:15:35.966+0200] {subprocess.py:93} INFO - [0m00:15:35  13 of 17 START sql table model gold.dim_customer ............................... [RUN]
+[2026-03-31T02:15:36.009+0200] {subprocess.py:93} INFO - [0m00:15:36  CANCEL query test.api_bi_project.unique_silver_payments_payment_id.09d6b3ec83 .. [[31mCANCEL[0m]
+[2026-03-31T02:15:36.013+0200] {subprocess.py:93} INFO - [0m00:15:36  CANCEL query test.api_bi_project.accepted_values_silver_sessions_source__google__direct__facebook__linkedin__newsletter__referral__bing.717fc87c90  [[31mCANCEL[0m]
+[2026-03-31T02:15:36.020+0200] {subprocess.py:93} INFO - [0m00:15:36  CANCEL query test.api_bi_project.not_null_silver_sessions_session_id.f74024a05b  [[31mCANCEL[0m]
+[2026-03-31T02:15:36.025+0200] {subprocess.py:93} INFO - [0m00:15:36  CANCEL query test.api_bi_project.unique_silver_sessions_session_id.9a8d5b03a8 .. [[31mCANCEL[0m]
+[2026-03-31T02:15:36.028+0200] {subprocess.py:93} INFO - [0m00:15:36  11 of 17 PASS not_null_silver_sessions_session_id .............................. [[32mPASS[0m in 0.13s]
+[2026-03-31T02:15:36.047+0200] {subprocess.py:93} INFO - [0m00:15:36  12 of 17 ERROR unique_silver_sessions_session_id ............................... [[31mERROR[0m in 0.11s]
+[2026-03-31T02:15:36.129+0200] {subprocess.py:93} INFO - [0m00:15:36  13 of 17 OK created sql table model gold.dim_customer .......................... [[32mSELECT 1002[0m in 0.16s]
+[2026-03-31T02:15:36.132+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.134+0200] {subprocess.py:93} INFO - [0m00:15:36  [31mFailure in test accepted_values_silver_sessions_source__google__direct__facebook__linkedin__newsletter__referral__bing (models/models.yml)[0m
+[2026-03-31T02:15:36.135+0200] {subprocess.py:93} INFO - [0m00:15:36    Got 1 result, configured to fail if != 0
+[2026-03-31T02:15:36.137+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.138+0200] {subprocess.py:93} INFO - [0m00:15:36    compiled code at target/compiled/api_bi_project/models/models.yml/accepted_values_silver_session_2b1dd7cfe6c5ebf4293aff2670001faa.sql
+[2026-03-31T02:15:36.161+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.162+0200] {subprocess.py:93} INFO - [0m00:15:36  Finished running 6 table models, 11 data tests in 0 hours 0 minutes and 1.08 seconds (1.08s).
+[2026-03-31T02:15:36.227+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.229+0200] {subprocess.py:93} INFO - [0m00:15:36  [31mCompleted with 8 errors and 0 warnings:[0m
+[2026-03-31T02:15:36.231+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.232+0200] {subprocess.py:93} INFO - [0m00:15:36  [31mFailure in test accepted_values_silver_sessions_source__google__direct__facebook__linkedin__newsletter__referral__bing (models/models.yml)[0m
+[2026-03-31T02:15:36.234+0200] {subprocess.py:93} INFO - [0m00:15:36    Got 1 result, configured to fail if != 0
+[2026-03-31T02:15:36.236+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.237+0200] {subprocess.py:93} INFO - [0m00:15:36    compiled code at target/compiled/api_bi_project/models/models.yml/accepted_values_silver_session_2b1dd7cfe6c5ebf4293aff2670001faa.sql
+[2026-03-31T02:15:36.239+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.241+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.243+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.244+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.245+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.247+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.248+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.250+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.251+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.252+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.254+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.255+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.257+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.258+0200] {subprocess.py:93} INFO - [0m00:15:36    Skipping due to fail_fast
+[2026-03-31T02:15:36.260+0200] {subprocess.py:93} INFO - [0m00:15:36
+[2026-03-31T02:15:36.262+0200] {subprocess.py:93} INFO - [0m00:15:36  Done. PASS=9 WARN=0 ERROR=1 SKIP=7 TOTAL=17
+[2026-03-31T02:15:36.960+0200] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-03-31T02:15:36.962+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-31T02:15:36.978+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-03-31T02:15:36.983+0200] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_api_to_bi, task_id=dbt_build, run_id=manual__2026-03-31T00:13:12.752437+00:00, execution_date=20260331T001312, start_date=20260331T001531, end_date=20260331T001536
+[2026-03-31T02:15:37.004+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 102 for task dbt_build (Bash command failed. The command returned a non-zero exit code 1.; 991)
+[2026-03-31T02:15:37.053+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-03-31T02:15:37.070+0200] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-31T02:15:37.075+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

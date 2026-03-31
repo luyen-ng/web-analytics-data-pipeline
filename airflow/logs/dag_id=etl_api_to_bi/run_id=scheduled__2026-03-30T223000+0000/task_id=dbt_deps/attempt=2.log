@@ -1,0 +1,36 @@
+[2026-03-31T00:47:03.619+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-31T00:47:03.659+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_api_to_bi.dbt_deps scheduled__2026-03-30T22:30:00+00:00 [queued]>
+[2026-03-31T00:47:03.669+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_api_to_bi.dbt_deps scheduled__2026-03-30T22:30:00+00:00 [queued]>
+[2026-03-31T00:47:03.670+0200] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2026-03-31T00:47:03.686+0200] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_deps> on 2026-03-30 22:30:00+00:00
+[2026-03-31T00:47:03.690+0200] {standard_task_runner.py:64} INFO - Started process 535 to run task
+[2026-03-31T00:47:03.694+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'etl_api_to_bi', 'dbt_deps', 'scheduled__2026-03-30T22:30:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/etl_api_to_bi.py', '--cfg-path', '/tmp/tmp5whopf73']
+[2026-03-31T00:47:03.697+0200] {standard_task_runner.py:91} INFO - Job 22: Subtask dbt_deps
+[2026-03-31T00:47:03.781+0200] {task_command.py:426} INFO - Running <TaskInstance: etl_api_to_bi.dbt_deps scheduled__2026-03-30T22:30:00+00:00 [running]> on host fcaa2f07ee84
+[2026-03-31T00:47:04.031+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data' AIRFLOW_CTX_DAG_ID='etl_api_to_bi' AIRFLOW_CTX_TASK_ID='dbt_deps' AIRFLOW_CTX_EXECUTION_DATE='2026-03-30T22:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-30T22:30:00+00:00'
+[2026-03-31T00:47:04.032+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-31T00:47:04.043+0200] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-31T00:47:04.045+0200] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "docker exec dbt bash -lc 'cd /usr/app && dbt deps --profiles-dir /root/.dbt'"]
+[2026-03-31T00:47:04.055+0200] {subprocess.py:86} INFO - Output:
+[2026-03-31T00:47:04.102+0200] {subprocess.py:93} INFO - Error response from daemon: container cce20099e90420fbfb99aa433f262aa44b49b3d7ae42a669ea357b20f3ed0124 is not running
+[2026-03-31T00:47:04.104+0200] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-03-31T00:47:04.104+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-31T00:47:04.117+0200] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-03-31T00:47:04.121+0200] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_api_to_bi, task_id=dbt_deps, run_id=scheduled__2026-03-30T22:30:00+00:00, execution_date=20260330T223000, start_date=20260330T224703, end_date=20260330T224704
+[2026-03-31T00:47:04.134+0200] {standard_task_runner.py:110} ERROR - Failed to execute job 22 for task dbt_deps (Bash command failed. The command returned a non-zero exit code 1.; 535)
+[2026-03-31T00:47:04.149+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-03-31T00:47:04.176+0200] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-31T00:47:04.179+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

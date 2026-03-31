@@ -14,7 +14,7 @@ models:
       - name: status
         tests:
           - accepted_values:
-              values: [suceeded, failed, refunded]
+              values: [succeeded, failed, refunded]
 
   - name: silver_sessions
     columns:
@@ -23,7 +23,7 @@ models:
       - name: source
         tests:
           - accepted_values:
-              values: [google, direct, facebook, linkedin, newsletter, referral, bing]
+              values: [google, direct, facebook, linkedin, newsletter, referral, x]
   
   - name: fact_daily_revenue
     columns:
